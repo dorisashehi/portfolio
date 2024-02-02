@@ -2,11 +2,11 @@ import { Link } from 'react-router-dom';
 import AnimatedLetters from'../AnimatedLetters'
 import './index.scss';
 import ProfileImg from '../../assets/images/profile.png'
-import { useEffect, useState } from 'react';
+import {useState } from 'react';
 
 const Home = () => {
 
-    const [letterClass, setLetterClass] = useState('text-animate');
+    const [letterClass] = useState('text-animate');
     const nameArray = [' ','D','o','r','i','s','a',' ','S','h','e','h','i'];
     const jobArray = ['W','e','b',' ','D','e','v','e','l','o','p','e','r','.'];
 

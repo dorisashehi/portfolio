@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const About = () => {
 
-    const [letterClass, setLetterClass] = useState('text-animate');
+    const [letterClass] = useState('text-animate');
 
     return(
         <div className="container about-page">

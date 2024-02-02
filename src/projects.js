@@ -5,15 +5,16 @@ const projects = [
         img: "stanley-project.png",
         title:"Stanley",
         description:"e-Commerce Website",
-        technologies:['Laravel','PHP','JavaScript']
+        technologies:['Laravel','PHP','JavaScript'],
+        link: "https://stanley-booking.crispybacon.dev/"
 
     },
     {
         id:2,
-        img: "seitron-project.png",
-        title:"Seitron",
-        description:"e-Commerce Website",
-        technologies:['Magento 2','PHP','JQuery']
+        img: "react-project-crud.png",
+        title:"Contact Manager",
+        description:"Create, Edit, Delete and Search Managers",
+        technologies:['ReatJs']
 
     },
     
