@@ -3,9 +3,9 @@ const Project = (props) => {
 
     return(
         <div className='project'>
-            
+
             <Link to={props.project.link} className='project-link' target='blank'>
-                <img className='project-image' src={"/projects/images/" + props.project.img} />
+                <img className='project-image' alt="Project" src={"/projects/images/" + props.project.img} />
                 <p className='project-title'>{props.project.title}</p>
             </Link>
                 <h2 className='project-description'>{props.project.description}</h2>
@@ -16,7 +16,7 @@ const Project = (props) => {
                         })
                     }
                 </div>
-           
+
         </div>
     )
 
