@@ -1,5 +1,5 @@
 .projects-container{
-    
+
     display: flex;
     flex-wrap: wrap;
     overflow-y: auto;
@@ -27,11 +27,11 @@
         background-color: #ffd700;
 
     }
-      
+
 
     .project{
 
-        flex: 1 0 calc(33.33% - 10px);
+        flex: 1 0 calc(50% - 10px);
         padding-bottom: 50px;
 
         .project-image{
@@ -41,7 +41,7 @@
             object-position: top;
         }
         h2{
-            line-height: 0px;
+            max-width: 81%;
         }
         .project-technologies{
             .technology{
