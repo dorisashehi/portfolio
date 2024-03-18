@@ -11,21 +11,22 @@ const About = () => {
             <div className="text-zone">
                 <h1>
                     <AnimatedLetters  letterClass = {letterClass}
-                        strArray={['A','b','o','u','t', ' ', 'M', 'e']} 
+                        strArray={['A','b','o','u','t', ' ', 'M', 'e']}
                         idx={15}
                     />
                 </h1>
-                <p>As an enthusiastic web developer, I am actively seeking employment 
-                    opportunities to enhance my skills in
+                <p>👨‍💻 As a web developer, I am actively seeking employment opportunities to enhance my skills in
                     web development and gain valuable professional experience.</p>
 
-                <p>With five years of experience, I am proficient
-                    in PHP, Magento 2 CMS, Laravel framework, and Javascript. Additionally, I possess hands-on experience
-                    with NodeJS, ExpressJs framework, VueJs, Jquery. Currently, I am expanding my skill set by learning
-                    ReactJs and Python.</p>
+                <p>💡 With several years of experience, I am proficient in PHP, Laravel, Vue.js and Javascript. Additionally, I possess hands-on experience
+                    with NodeJS, ExpressJs, MongoDB, Mongoose, Jquery.</p>
+                <p>
+                    🚀 Constantly looking to expand my skill set, I am currently enhancing my knowledge of React.js to broaden my expertise in frontend development and stay updated with the latest trends in the industry.
+                </p>
+                <p>
+                    🔍 Open to new opportunities and challenges where I can apply my skills, learn from innovative projects, and contribute to the company's success.
+                </p>
 
-                <p>I am excited to learn new things, face new challenges, 
-                    and contribute to the company's success.</p>
             </div>
         </div>
     )
