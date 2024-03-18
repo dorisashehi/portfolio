@@ -5,7 +5,7 @@
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
+        width: 30%;
         max-height: 90%;
     }
     h1{
@@ -14,7 +14,7 @@
         margin: 0px;
         font-family: 'Coolvetica';
         font-weight: 400;
-        
+
 
         &::before{
             content: '<h1>';
@@ -32,7 +32,7 @@
             position: absolute;
             margin-top: -18px;
             margin-left: 20px;
-            animation: fedeIn 1s 1.7s backwards; 
+            animation: fedeIn 1s 1.7s backwards;
             opacity: 0.6
         }
         img{
@@ -85,15 +85,16 @@
     position: absolute;
     right: 10%;
     top: 50%;
-    
+
     transform: translateY(-50%);
-    width: 40%;
+    width: 50%;
     max-height: 90%;
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
-    animation-delay: 1s;
+    //animation-delay: 1s;
+    animation: pulse 1s;
 
     img{
-        width: 40%;
+        width: 30%;
     }
 }
