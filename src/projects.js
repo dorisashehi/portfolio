@@ -38,7 +38,7 @@ const projects = [
     },
     {
         id:5,
-        img: "react-project-crud.png",
+        img: "portfolio.png",
         title:"Portfolio",
         description:"Created a portfolio page to showcase my work.",
         technologies:['ReatJs'],
