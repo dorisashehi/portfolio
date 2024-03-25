@@ -40,7 +40,7 @@ const projects = [
         id:5,
         img: "peterjungblut.png",
         title:"Peterjungblut",
-        description:"Made a plugin to integrate woo-commerce subscriptions to buddy-press profile.",
+        description:"Made a plugin to integrate WooCommerce subscriptions to BuddyPress profile.",
         technologies:['WordPress','PHP','JavaScript'],
         link: "https://peterjungblut.de/"
 
