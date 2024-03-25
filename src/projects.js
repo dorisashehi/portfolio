@@ -31,7 +31,7 @@ const projects = [
         id:4,
         img: "seitron.png",
         title:"Seitron",
-        description:"Integrated blog posts created from beggining with Gutenberg Blocks from WordPress into Magento 2",
+        description:"Created from the beginning, using Gutenberg Blocks, some blog pages.",
         technologies:['WordPress','PHP','JavaScript'],
         link: "https://seitron.com/it/"
 
