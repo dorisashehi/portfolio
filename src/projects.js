@@ -29,6 +29,33 @@ const projects = [
     },
     {
         id:4,
+        img: "seitron.png",
+        title:"Seitron",
+        description:"Integrated blog posts created from beggining with Gutenberg Blocks from WordPress into Magento 2",
+        technologies:['WordPress','PHP','JavaScript'],
+        link: "https://seitron.com/it/"
+
+    },
+    {
+        id:5,
+        img: "peterjungblut.png",
+        title:"Peterjungblut",
+        description:"Made a plugin to integrate woo-commerce subscriptions to buddy-press profile.",
+        technologies:['WordPress','PHP','JavaScript'],
+        link: "https://peterjungblut.de/"
+
+    },
+    {
+        id:6,
+        img: "clusteragrifood.png",
+        title:"Clusteragrifood",
+        description:"Maintained frontend of the website using Elementor, WordPress and created a plugin from beggining.",
+        technologies:['WordPress','PHP','JavaScript'],
+        link: "https://clusteragrifood.it/"
+
+    },
+    {
+        id:7,
         img: "react-project-crud.png",
         title:"Contact Manager",
         description:"Perform CRUD operations to create, update, delete, and read managers.",
@@ -37,7 +64,7 @@ const projects = [
 
     },
     {
-        id:5,
+        id:8,
         img: "portfolio.png",
         title:"Portfolio",
         description:"Created a portfolio page to showcase my work.",
@@ -46,7 +73,7 @@ const projects = [
 
     },
     {
-        id:6,
+        id:9,
         img: "e-commerce.png",
         title:"e-Commerce",
         description:"Created the frontend of an e-commerce website.",
@@ -55,7 +82,7 @@ const projects = [
 
     },
     {
-        id:7,
+        id:10,
         img: "brickup.png",
         title:"Brickup",
         description:"Maintained the Brick Up website, developed using Node.js, MongoDB, Mongoose, and Keystone.js. BrickUp is an innovative web platform authorized by CONSOB, bringing together virtuous construction entrepreneurs and investors eager to diversify capital allocation in high-value real estate projects through real estate equity crowdfunding.",
@@ -63,33 +90,33 @@ const projects = [
         link: "https://brickup.it/"
 
     },
-    {
-        id:8,
-        img: "capellimonelli.png",
-        title:"Capellimonelli",
-        description:"Created the frontend of the Capellimonelli website using Magezon Page Builder. It is an online seller and retailer of hair care products.",
-        technologies:['Magento 2','PHP','JQuery'],
-        link: "https://capellimonelli.it/"
+    // {
+    //     id:11,
+    //     img: "capellimonelli.png",
+    //     title:"Capellimonelli",
+    //     description:"Created the frontend of the Capellimonelli website using Magezon Page Builder. It is an online seller and retailer of hair care products.",
+    //     technologies:['Magento 2','PHP','JQuery'],
+    //     link: "https://capellimonelli.it/"
 
-    },
-    {
-        id:9,
-        img: "kegland.png",
-        title:"Kegland",
-        description:"Upgraded the Kegland e-commerce website from Magento 1 to Magento 2 version. Kegland is an e-commerce platform specializing in selling brewing supplies for every brewer.",
-        technologies:['Magento 2','PHP','JQuery'],
-        link: "https://www.kegland.com.au/"
+    // },
+    // {
+    //     id:12,
+    //     img: "kegland.png",
+    //     title:"Kegland",
+    //     description:"Upgraded the Kegland e-commerce website from Magento 1 to Magento 2 version. Kegland is an e-commerce platform specializing in selling brewing supplies for every brewer.",
+    //     technologies:['Magento 2','PHP','JQuery'],
+    //     link: "https://www.kegland.com.au/"
 
-    },
-    {
-        id:10,
-        img: "seitron.png",
-        title:"Seitron",
-        description:"Maintained an existing Magento 2 websites Seitron integrated with WordPress. Seitron is an italian company leader in thermoregulation, residential and industrial gas detectors, combustions and emissions analyzers.",
-        technologies:['Magento 2','PHP','JQuery'],
-        link: "https://seitron.com/it/"
+    // },
+    // {
+    //     id:13,
+    //     img: "seitron.png",
+    //     title:"Seitron",
+    //     description:"Maintained an existing Magento 2 websites Seitron integrated with WordPress. Seitron is an italian company leader in thermoregulation, residential and industrial gas detectors, combustions and emissions analyzers.",
+    //     technologies:['Magento 2','PHP','JQuery'],
+    //     link: "https://seitron.com/it/"
 
-    },
+    // },
 ]
 
 export default projects;
