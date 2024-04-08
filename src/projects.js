@@ -20,6 +20,16 @@ const projects = [
     },
     {
         id:3,
+        img: "mylibrary.png",
+        title:"MyLibrary",
+        description:"It provides the ability to view all books that you have read or not read yet and add new books.",
+        technologies:['JavaScript','HTML','CSS'],
+        link: "https://dorisashehi.github.io/book/"
+
+    },
+
+    {
+        id:3,
         img: "citylight.png",
         title:"CityLight",
         description:"Worked on maintaining the PHP version of the CityLight website and migrated it to the Laravel framework. This platform offers an integrated solution, allowing the public lighting network to be easily queried at any time and according to specific needs.",
@@ -90,15 +100,15 @@ const projects = [
         link: "https://brickup.it/"
 
     },
-    // {
-    //     id:11,
-    //     img: "capellimonelli.png",
-    //     title:"Capellimonelli",
-    //     description:"Created the frontend of the Capellimonelli website using Magezon Page Builder. It is an online seller and retailer of hair care products.",
-    //     technologies:['Magento 2','PHP','JQuery'],
-    //     link: "https://capellimonelli.it/"
+    {
+        id:11,
+        img: "capellimonelli.png",
+        title:"Capellimonelli",
+        description:"Created the frontend of the Capellimonelli website using Magezon Page Builder. It is an online seller and retailer of hair care products.",
+        technologies:['Magento 2','PHP','JQuery'],
+        link: "https://capellimonelli.it/"
 
-    // },
+    },
     // {
     //     id:12,
     //     img: "kegland.png",
