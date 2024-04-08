@@ -23,8 +23,17 @@ const projects = [
         img: "mylibrary.png",
         title:"MyLibrary",
         description:"It provides the ability to view all books that you have read or not read yet and add new books.",
-        technologies:['JavaScript','HTML','CSS'],
+        technologies:['JavaScript','HTML','CSS', 'Bootstrap'],
         link: "https://dorisashehi.github.io/book/"
+
+    },
+    {
+        id:3,
+        img: "movies.png",
+        title:"Movies",
+        description:"That's a website that gets movies from TMDB API and displays them based on the category. Website offers the opportuniity to search movies. Clicking a movie, will show movie details.",
+        technologies:['JavaScript','HTML','CSS', "API", "Bootstrap"],
+        link: "https://glistening-elf-a1fe63.netlify.app/"
 
     },
 
