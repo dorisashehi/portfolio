@@ -18,7 +18,7 @@ const About = () => {
                 <p>👨‍💻 As a web developer, I am actively seeking employment opportunities to enhance my skills in
                     web development and gain valuable professional experience.</p>
 
-                <p>💡 With several years of experience, I am proficient in PHP, WordPress, Laravel, Vue.js and Javascript. Additionally, I possess hands-on experience
+                <p>💡 With several years of experience, I am proficient in PHP, Laravel, Vue.js and Javascript. Additionally, I possess hands-on experience
                     with NodeJS, React.js, and JQuery.</p>
                 <p>
                     🔍 Open to new opportunities and challenges where I can apply my skills, learn from innovative projects, and contribute to the company's success.
