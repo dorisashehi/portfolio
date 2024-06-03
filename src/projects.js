@@ -54,7 +54,7 @@ const projects = [
         title:"Restaurant",
         description:"That's a website to show reataurant menu, location, and make a reservation. Only frontend built",
         technologies:['JavaScript','HTML','Sass', "ES6"],
-        link: "https://dorisashehi.github.io/ToDo-List/"
+        link: "https://dorisashehi.github.io/restaurant/"
 
     },
 
