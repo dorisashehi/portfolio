@@ -18,24 +18,6 @@ const projects = [
         link: "https://app.assumed.com/login"
 
     },
-    {
-        id:3,
-        img: "mylibrary.png",
-        title:"MyLibrary",
-        description:"It provides the ability to view all books that you have read or not read yet and add new books.",
-        technologies:['JavaScript','HTML','CSS', 'Bootstrap'],
-        link: "https://dorisashehi.github.io/book/"
-
-    },
-    {
-        id:3,
-        img: "movies.png",
-        title:"Movies",
-        description:"That's a website that gets movies from TMDB API and displays them based on the category. Website offers the opportuniity to search movies. Clicking a movie, will show movie details.",
-        technologies:['JavaScript','HTML','CSS', "API", "Bootstrap"],
-        link: "https://glistening-elf-a1fe63.netlify.app/"
-
-    },
 
     {
         id:3,
@@ -46,6 +28,36 @@ const projects = [
         link: "http://citylight.apps.sis-ter.it/"
 
     },
+
+    {
+        id:3,
+        img: "weather.png",
+        title:"Weather App",
+        description:"Search locations to show the weather data and switch temperature form (F/C)",
+        technologies:['JavaScript','HTML', 'Sass', 'ES6', 'Async/Await', 'Promisses'],
+        link: "https://dorisashehi.github.io/weather-app/"
+
+    },
+    {
+        id:3,
+        img: "todo.png",
+        title:"ToDo list",
+        description:"That's a website to create projects and add their corresponding tasks. User can add, remove and mark as completed their tasks",
+        technologies:['JavaScript','HTML','Sass', "ES6", "localStorage"],
+        link: "https://dorisashehi.github.io/ToDo-List/"
+
+    },
+
+    {
+        id:3,
+        img: "restaurant.png",
+        title:"Restaurant",
+        description:"That's a website to show reataurant menu, location, and make a reservation. Only frontend built",
+        technologies:['JavaScript','HTML','Sass', "ES6"],
+        link: "https://dorisashehi.github.io/ToDo-List/"
+
+    },
+
     {
         id:4,
         img: "seitron.png",

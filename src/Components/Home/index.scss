@@ -74,24 +74,15 @@
         color: #333;
     }
 }
-
-// .logo{
-//     -webkit-text-stroke-width: 1px;
-//     -webkit-text-stroke-color: #ffd700;
-//     color: #115173;
-// }
-
 .profile-picture{
     position: absolute;
-    right: 10%;
+    right: 5%;
     top: 50%;
-
     transform: translateY(-50%);
     width: 50%;
     max-height: 90%;
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
-    //animation-delay: 1s;
     animation: pulse 1s;
 
     img{
