@@ -1,11 +1,11 @@
 import './index.scss'
-import AnimatedLetters from '../AnimatedLetters'
+//import AnimatedLetters from '../AnimatedLetters'
 import { useState } from 'react'
 import projects from '../../projects'
 import Project from './Project'
 
 const Projects = () => {
-  const [letterClass] = useState('text-animate')
+  //const [letterClass] = useState('text-animate')
 
   return (
     <div className="container projects-page">
