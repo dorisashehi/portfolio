@@ -38,8 +38,8 @@
     width: 100%;
     border: 0;
     background: #115173;
-    height: 50px;
-    font-size: 16px;
+    height: 35px;
+    font-size: 12px;
     color: #fff;
     padding: 0 20px;
     box-sizing: border-box;
@@ -66,5 +66,28 @@
     border: 1px solid #ffd700;
     float: right;
     border-radius: 4px;
+  }
+}
+
+.contact-page {
+  .text-zone {
+    top: 50%;
+  }
+}
+
+@media screen and (min-width: 969px) {
+  .contact-page {
+    .text-zone {
+      top: 55%;
+    }
+  }
+
+  .contact-form {
+    input[type='text'],
+    input[type='hidden'],
+    input[type='email'] {
+      height: 50px;
+      font-size: 16px;
+    }
   }
 }

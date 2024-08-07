@@ -27,6 +27,15 @@ const projects = [
     technologies: ['Laravel', 'PHP', 'JavaScript'],
     link: 'http://citylight.apps.sis-ter.it/',
   },
+
+  {
+    id: 3,
+    img: 'frontend.png',
+    title: 'Clothing Store',
+    description: 'Made an e-commerce website demo',
+    technologies: ['React.js', 'Tailwindcss', 'JavaScript'],
+    link: 'https://online-store24.netlify.app/shop',
+  },
   {
     id: 3,
     img: 'cv.png',
@@ -42,14 +51,7 @@ const projects = [
     title: 'Weather App',
     description:
       'Search locations to show the weather data and switch temperature form (F/C)',
-    technologies: [
-      'JavaScript',
-      'HTML',
-      'Sass',
-      'ES6',
-      'Async/Await',
-      'Promisses',
-    ],
+    technologies: ['JavaScript', 'HTML', 'Sass', 'ES6'],
     link: 'https://dorisashehi.github.io/weather-app/',
   },
   {
@@ -99,15 +101,15 @@ const projects = [
     technologies: ['WordPress', 'PHP', 'JavaScript'],
     link: 'https://clusteragrifood.it/',
   },
-  {
-    id: 7,
-    img: 'react-project-crud.png',
-    title: 'Contact Manager',
-    description:
-      'Perform CRUD operations to create, update, delete, and read managers.',
-    technologies: ['ReatJs'],
-    link: 'https://github.com/dorisashehi/contact-manager',
-  },
+  // {
+  //   id: 7,
+  //   img: 'react-project-crud.png',
+  //   title: 'Contact Manager',
+  //   description:
+  //     'Perform CRUD operations to create, update, delete, and read managers.',
+  //   technologies: ['ReatJs'],
+  //   link: 'https://github.com/dorisashehi/contact-manager',
+  // },
   {
     id: 8,
     img: 'portfolio.png',
@@ -116,20 +118,20 @@ const projects = [
     technologies: ['ReatJs'],
     link: 'https://effortless-fox-48c033.netlify.app/',
   },
-  {
-    id: 9,
-    img: 'e-commerce.png',
-    title: 'e-Commerce',
-    description: 'Created the frontend of an e-commerce website.',
-    technologies: ['VueJs'],
-    link: 'https://github.com/dorisashehi/vuejs_ecommerce',
-  },
+  // {
+  //   id: 9,
+  //   img: 'e-commerce.png',
+  //   title: 'e-Commerce',
+  //   description: 'Created the frontend of an e-commerce website.',
+  //   technologies: ['VueJs'],
+  //   link: 'https://github.com/dorisashehi/vuejs_ecommerce',
+  // },
   {
     id: 10,
     img: 'brickup.png',
     title: 'Brickup',
     description:
-      'Maintained the Brick Up website, developed using Node.js, MongoDB, Mongoose, and Keystone.js. BrickUp is an innovative web platform authorized by CONSOB, bringing together virtuous construction entrepreneurs and investors eager to diversify capital allocation in high-value real estate projects through real estate equity crowdfunding.',
+      'Maintained the Brick Up website, developed using Node.js, MongoDB, Mongoose, and Keystone.js. BrickUp is an innovative web platform, bringing together virtuous construction entrepreneurs and investors eager to diversify capital allocation in high-value real estate projects.',
     technologies: ['NodeJs', 'Mongoose', 'MongoDB', 'KeystoneJs'],
     link: 'https://brickup.it/',
   },
