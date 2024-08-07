@@ -1,70 +1,89 @@
-.projects-container{
+.projects-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-y: auto;
+  max-height: calc(100vh - 150px);
+  overflow-x: hidden;
+  flex-direction: column;
 
-    display: flex;
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #4d4d4e;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #ffd700;
+    border-radius: 4px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #ffd700;
+  }
+
+  .project {
+    flex: 1 0 calc(26% - 10px);
+    padding-bottom: 50px;
+
+    .project-title {
+      color: #ffd700;
+      font-weight: bold;
+    }
+    .project-description {
+      color: white;
+      font-size: 12px;
+    }
+
+    .project-image {
+      width: 90%;
+      object-fit: cover;
+      height: 200px;
+      object-position: top;
+    }
+    h2 {
+      max-width: 81%;
+    }
+    .project-technologies {
+      .technology {
+        &.flat-button {
+          background: none;
+          color: #ffd700;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          margin-right: 10px;
+        }
+      }
+    }
+    .project-link {
+      text-decoration: none;
+    }
+  }
+}
+
+.projects-page {
+  .text-zone {
+    width: 100%;
+    top: 52%;
+  }
+}
+@media screen and (min-width: 969px) {
+  .projects-page {
+    .text-zone {
+      width: 90%;
+      top: 58%;
+    }
+  }
+  .projects-container {
+    flex-direction: row;
     flex-wrap: wrap;
-    overflow-y: auto;
-    max-height: 400px;
-    overflow-x: hidden;
-
-    &::-webkit-scrollbar {
-
-        width: 8px;
-
+    max-height: 800px;
+    .project {
+      .project-image {
+        width: 80%;
+        height: 270px;
+      }
+      .project-description {
+        font-size: 16px;
+      }
     }
-    &::-webkit-scrollbar-track {
-
-        background-color: #4d4d4e;
-
-    }
-    &::-webkit-scrollbar-thumb {
-
-        background-color: #ffd700;
-        border-radius: 4px;
-
-    }
-    &::-webkit-scrollbar-thumb:hover {
-
-        background-color: #ffd700;
-
-    }
-
-
-    .project{
-
-        flex: 1 0 calc(26% - 10px);
-        padding-bottom: 50px;
-
-        .project-title{
-            color: #ffd700;
-            font-weight: bold;
-        }
-        .project-description{
-            color: white;
-        }
-
-        .project-image{
-            width: 80%;
-            object-fit: cover;
-            height: 270px;
-            object-position: top;
-        }
-        h2{
-            max-width: 81%;
-        }
-        .project-technologies{
-            .technology{
-                &.flat-button{
-                    background: none;
-                    color: #ffd700;
-                    margin-top: 10px;
-                    margin-bottom: 10px;
-                    margin-right: 10px;
-
-                }
-            }
-        }
-        .project-link{
-            text-decoration: none;
-        }
-    }
+  }
 }

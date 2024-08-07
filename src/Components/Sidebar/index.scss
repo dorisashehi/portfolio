@@ -1,165 +1,172 @@
-.nav-bar{
-    background: #181818;
-    width: 60px;
-    height: 100%;
+.nav-bar {
+  background: #181818;
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  min-height: 500px;
+
+  .logo {
+    padding: 8x 0;
+    display: block;
+    text-decoration: none;
+
+    ._letterD_logo {
+      font-size: 40px;
+      color: #ffd700;
+      position: relative;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 0px;
+      text-align: center;
+      margin-bottom: 0px;
+
+      &::before {
+        content: 'D';
+        color: #115173;
+        top: 4px;
+        position: absolute;
+        left: 5px;
+        filter: blur(1.5px);
+        width: 100%;
+      }
+      &::after {
+        content: 'D';
+        color: #115173;
+        top: 4px;
+        position: absolute;
+        left: 5px;
+        height: 100%;
+        width: 100%;
+      }
+    }
+    h2 {
+      &.sub-logo {
+        margin: 0px;
+        text-align: center;
+        color: #fff;
+      }
+    }
+
+    img {
+      display: block;
+      margin: 8px auto;
+      width: 24px;
+      height: auto;
+
+      &.sub-logo {
+        width: 50px;
+      }
+    }
+  }
+
+  nav {
+    display: block;
     position: absolute;
-    top: 0;
-    z-index: 3;
-    min-height: 500px;
+    text-align: center;
+    height: 210px;
+    top: 50%;
+    margin-top: -120px;
+    width: 100%;
 
-    .logo{
-        padding: 8x 0;
-        display: block;
-        text-decoration: none;
-        
-        ._letterD_logo{
-            font-size: 60px;
-            color: #ffd700;
-            position: relative;
-            font-weight: 600;
-            cursor: pointer;
-            margin-top: 0px;
-            text-align: center;
-            margin-bottom: 0px;
-        
-            &::before{
-                content: "D";
-                color: #115173;
-                top: 4px;
-                position: absolute;
-                left: 5px;
-                filter: blur(1.5px);
-                width: 100%;
-            }
-            &::after{
-                content: "D";
-                color: #115173;
-                top: 4px;
-                position: absolute;
-                left: 5px;
-                height: 100%;
-                width: 100%;
-            }
-        }
-        h2{
-            &.sub-logo{
-                margin: 0px;
-                text-align: center;
-                color: #fff;
-               
-            }
+    a {
+      font-size: 22px;
+      color: #4d4d4e;
+      display: block;
+      line-height: 51px;
+      height: 51px;
+      position: relative;
+      text-decoration: none;
+
+      i {
+        transition: all 0.3s ease-out;
+      }
+
+      &:hover {
+        color: #ffd700;
+
+        svg {
+          opacity: 0;
         }
 
-        img{
-            display: block;
-            margin: 8px auto;
-            width: 24px;
-            height: auto;
-
-            &.sub-logo{
-                width: 50px;
-
-            }
+        &:after {
+          opacity: 1;
         }
-    }
+      }
 
-    nav {
-        display: block;
+      &:after {
+        content: '';
+        font-size: 9px;
+        letter-spacing: 2px;
         position: absolute;
-        text-align: center;
-        height: 210px;
-        top: 50%;
-        margin-top: -120px;
-        width: 100%;
-
-        a{
-            font-size: 22px;
-            color: #4d4d4e;
-            display: block;
-            line-height: 51px;
-            height: 51px;
-            position: relative;
-            text-decoration: none;
-
-            i {
-                transition: all 0.3s ease-out;
-            }
-
-            &:hover{
-                color: #ffd700;
-
-                svg{
-                    opacity: 0;
-                }
-
-                &:after{
-                    opacity: 1;
-                }
-            }
-
-            &:after{
-                content: '';
-                font-size: 9px;
-                letter-spacing: 2px;
-                position: absolute;
-                bottom: 0;
-                display: block;
-                width: 100%;
-                text-align: center;
-                opacity: 0;
-                transition: all 0.3s ease-out;
-            }
-
-            &:first-child{
-                &::after{
-                    content: 'Home';
-                }
-            }
-        }
-        a.about-link{
-            &::after{
-                content: 'ABOUT';
-            }
-        }
-        a.contact-link{
-            &::after{
-                content: 'CONTACT';
-            }
-        }
-        a.projects-link{
-            &::after{
-                content: 'PROJECTS';
-            }
-        }
-        
-        a.active{
-            svg{
-                color: #ffd700;
-            }
-        }
-    }
-    ul{
-        position: absolute;
-        bottom: 20px;
-        width: 100%;
+        bottom: 0;
         display: block;
-        padding: 0;
-        list-style: none;
+        width: 100%;
         text-align: center;
-        margin: 0;
+        opacity: 0;
+        transition: all 0.3s ease-out;
+      }
 
-        li{
-            a{
-                padding: 7px 0;
-                display: block;
-                font-size: 15px;
-                line-height: 16px;
-
-                &:hover svg{ 
-                    color: #ffd700;
-                }
-            }
+      &:first-child {
+        &::after {
+          content: 'Home';
         }
+      }
     }
+    a.about-link {
+      &::after {
+        content: 'ABOUT';
+      }
+    }
+    a.contact-link {
+      &::after {
+        content: 'CONTACT';
+      }
+    }
+    a.projects-link {
+      &::after {
+        content: 'PROJECTS';
+      }
+    }
+
+    a.active {
+      svg {
+        color: #ffd700;
+      }
+    }
+  }
+  ul {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+
+    li {
+      a {
+        padding: 7px 0;
+        display: block;
+        font-size: 15px;
+        line-height: 16px;
+
+        &:hover svg {
+          color: #ffd700;
+        }
+      }
+    }
+  }
 }
 
+@media screen and (min-width: 969px) {
+  .nav-bar {
+    .logo {
+      ._letterD_logo {
+        font-size: 50px;
+      }
+    }
+  }
+}
