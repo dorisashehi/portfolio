@@ -23,8 +23,8 @@ const About = () => {
 
         <p>
           💡 With several years of experience, I am proficient in JavaScript,
-          React.js, Node.js, Expess.js, PHP, and Laravel. Additionally, I
-          possess hands-on experience with Laravel, Vue.js, and JQuery.
+          React.js, Node.js, Expess.js, and PHP. Additionally, I possess
+          hands-on experience with Magento 2, Vue.js, and JQuery.
         </p>
         <p>
           🔍 Open to new opportunities and challenges where I can apply my

@@ -5,7 +5,7 @@ const projects = [
     title: 'Stanley',
     description:
       'Developed from the beginning, a Stanley e-commerce website for a French supermarket. It enables clients to purchase products at Stanley Supermarket using points accumulated from previous purchases at the supermarket.',
-    technologies: ['Laravel', 'PHP', 'JQuery'],
+    technologies: ['Laravel', 'PHP', 'React.js'],
     link: 'https://stanley-booking.crispybacon.dev/',
   },
   {
@@ -14,7 +14,7 @@ const projects = [
     title: 'Assumed',
     description:
       'Created admin pages for the Assumed website. Assumed ensures that your partners handle their data as claimed, validates your lead/sales processes, and monitors your databases for unauthorized access or theft.',
-    technologies: ['Laravel', 'PHP', 'VueJs'],
+    technologies: ['Laravel', 'PHP', 'React.js'],
     link: 'https://app.assumed.com/login',
   },
 
